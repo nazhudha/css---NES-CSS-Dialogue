@@ -1,0 +1,12 @@
+/* Can use @import to import here or add direct link to Index as Stylre sheet */
+
+/* @import "../node_modules/@16bits/nes.css/css/nes.css" */
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 30px;
+}
+
