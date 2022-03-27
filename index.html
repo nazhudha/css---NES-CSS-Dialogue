@@ -67,7 +67,7 @@
             <p>"Unfair...Pikachu gets to stay outside it's pokeball!"</p>
             <menu class="dialog-menu">
               <button class="nes-btn">Cancel</button>
-              <button class="nes-btn is-error">Fight Back?</button>
+              <button onclick="audio.play()" class="nes-btn is-error">Fight Back?</button>
             </menu>
           </form>
         </dialog>
@@ -83,7 +83,7 @@
       </section>
 
       <section class="message with-title is-centered is-inline">
-        <a class="nes-btn is-disabled" href="#">Throw Pokeball?</a>
+        <a class="nes-btn" href="#">Throw Pokeball?</a>
         <label>
           <input type="radio" class="nes-radio" name="answer" checked />
           <span>Yes</span>
