@@ -2,11 +2,36 @@
 
 /* @import "../node_modules/@16bits/nes.css/css/nes.css" */
 
-* {
-    font-family: 'Raleway', sans-serif;
-}
-
 body {
     margin: 30px;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Press Start 2P", 'Raleway',  "sans-serif";
+}
+
+.nes-container.margin {
+    margin: 3vw;
+}
+.message.is-inline {
+    display: flex;
+    align-items: end;
+    margin: 20px 0;
+}
+
+.-right {
+    justify-content: right;
+}
+
+.nes-container.is-rounded {
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nes-progress {
+    width: 100px;
+    height: 20px;
 }
 
